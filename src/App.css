@@ -1,0 +1,124 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  display: grid;
+  grid-template: 
+  "Left--side" "Main--side" "Right--side"/auto
+      1fr       1fr           1fr;
+  /* gap: 2rem; */
+
+
+}
+.Left--side{
+  display: grid;
+  margin-left: 40px;
+}
+.Left--side--logo{
+width: 30px;
+}
+.Left--Menu li{
+list-style: none;
+display: grid;
+grid-template-columns: 40px 100px;
+
+}
+
+.Left--Menu li:hover{
+ font-weight: bolder;
+}
+
+.Left--Menu a{
+  text-decoration: none;
+  color: black;
+}
+
+.Left--Menu{
+  display: grid;
+  gap: 1rem;
+}
+.Left--side--button{
+  background-color: rgb(29, 155, 240);
+  border: none;
+  width:120px;
+  height: 30px;
+  border-radius: 20px;
+  color: white;
+}
+.Left--side--profile img{
+width: 40px;
+border-radius: 50%;
+}
+.Left--side--profile{
+  display: grid;
+  grid-template-columns: 40px 100px 100px;
+  /* margin-top: 500px; */
+
+}
+.Left--side--profile h2{
+font-size: smaller;
+}
+.Left--side--profile p{
+  font-size: xx-small;
+}
+.Main--side-header{
+  display: grid;
+  grid-auto-flow: row;
+  gap: 0.5rem;
+}
+.Main--side-header1 li{
+display: grid;
+grid-template-columns: 270px auto;
+list-style: none;
+}
+
+.Main--side-header2 img{
+  width: 40px;
+border-radius: 50%;
+}
+.Main--side-header2 input{
+  border: none;
+  color: gray;
+  margin-left: 0px;
+}
+
+.Main--side-header3 li{
+  list-style: none;
+  color: rgb(29, 155, 240);
+  
+}
+.Main--side-header3 ul{
+  display: grid;
+  grid-auto-flow: column;
+}
+.Main--side-header3{
+  display: grid;
+  grid-auto-flow: column;
+}
+.Main--side-header3 input{
+  background-color: rgb(29, 155, 240);
+  border: none;
+  border-radius: 20px;
+  color: white;
+   width: 60px;
+   margin-left: 70px;
+}
+.Main-photo--profili{
+  width: 40px;
+  border-radius: 50%;
+}
+.Main--side div{
+  display: grid;
+  grid-template-columns: auto auto 200px;
+  font-size: x-small;
+  gap: 0.3rem;
+}
+.Main--side--photo{
+  margin-top: 40px;
+}
+.comments{
+  display: grid;
+  grid-template-columns: repeat(5,4);
+}

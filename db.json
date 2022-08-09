@@ -1,0 +1,55 @@
+{
+  "posts": [
+    {
+      "id": 1,
+       "name":"Jhon",
+       "email": "jhon@gmail.com",
+       "description":"Woman Leaning on Railing in Museum",
+       "image":"src/image/WOMAN.webp"
+      
+    },
+    {
+      "id": 2,
+       "name":"Ann",
+       "email": "ann@gmail.com",
+       "description":"A Bottle and a Glass of Wine on a Wooden Bench",
+       "image":"src/image/wine.webp"
+      
+    },
+    {
+      "id": 3,
+       "name":"Ben",
+       "email": "ben@gmail.com",
+       "description":"Brown Concrete Building Near Body of Water",
+       "image":"src/image/water.jpeg"
+      
+    },
+    {
+      "id": 4,
+       "name":"Beatric",
+       "email": "beatric@gmail.com",
+       "description":"A carry-on suitcase sits on minimal steps",
+       "image":"src/image/bag.jpeg"
+      
+    },
+    {
+      "id": 5,
+       "name":"Alvaro",
+       "email": "alvaro@gmail.com",
+       "description":"route",
+       "image":"src/image/montain.jpeg"
+      
+    }
+
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
